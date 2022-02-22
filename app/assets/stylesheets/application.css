@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ *, *::before, *::after {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  border:solid 0px blue;
+}
+
+ header {
+   margin-top: 0;
+   padding: 2rem;
+   background-color: lightcyan;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }

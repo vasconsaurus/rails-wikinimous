@@ -11,6 +11,9 @@
   </head>
 
   <body>
+  <header>
+    <%= render "partials/navbar", article: @article %>
+  </header>
     <%= yield %>
   </body>
 </html>

@@ -1,2 +1,13 @@
 <h1><%= @article.title %></h1>
+<article>
 <p><%= @article.content %></p>
+</article>
+
+<div class="nav">
+<p><%= link_to "editar artigo", edit_path %></p>
+<p><%= link_to "deletar artigo",
+            article_path(@article),
+            method: :delete,
+            data: { confirm: "Certeza? Absoluta?" } %></p>
+<p><%= link_to "voltar", root_path %></p>
+</div>

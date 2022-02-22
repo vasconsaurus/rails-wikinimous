@@ -1,3 +1,51 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+article, h1, form {
+  margin: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: solid underline black 3px;
+  transition: 0.3s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: cyan;
+  margin-bottom: 1rem;
+  height: 3rem;
+  font-weight: bold;
+}
+
+#article_title, #article_content {
+  background-color: lightcyan;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+}
+
+.nav {
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+.nav p {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
